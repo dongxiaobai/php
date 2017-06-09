@@ -1,0 +1,2 @@
+1、如果想改变一个 input标签的value，必须在input标签里面首先定义、或者说初始化value属性，否则用js改变其value属性的时候，不会发生任何事情
+2、select标签下的option 如果所有的option都添加了 selected='',会默认选中最后一个，无论上面的option是否添加了 select='selected'，所以如果想使用flag来确定哪个是被选中的话，可以直接使用 selected即可。
